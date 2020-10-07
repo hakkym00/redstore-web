@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore Products</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- ------------header------------ -->
+
+
+    <div class="header-sec-one" >
+        <div class="header-item-one">
+            <a href="./index.html"><img src="./images/logo.png" alt="RedStore" width="125px"></a>
+        </div>
+        <nav class="header-item-two" >
+            <ul id="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="./account.html">Account</a></li>
+            </ul>
+            <a href="./cart.html"><img src="./images/cart.png" width="30px" height="30px" alt="cart"></a>
+            <img src="./images/menu.png" class="menu-icon" onclick="navBar()" alt="cart">
+        </nav>
+    </div>
+
+    <!-- ===========account-page-------------- -->
+    <div class="account-page">
+        <div class="account-container">
+            <div class="account-container-item-one">
+                <img src="./images/image1.png" width="100%">
+            </div>
+            <div class="account-container-item-two">
+                <div class="register-login-cointainer">
+                    <div class="form-btn">
+                        <span id="login-btn" onclick="toggleLoginForm()">Login</span>
+                        <span id="reg-btn" onclick="toggleRegForm()">Register</span>
+                        <hr class="indicator">
+                    </div>
+                    <form id="loginForm" >
+                        <input type="text" placeholder="Username" id="">
+                        <input type="password" placeholder="Password" id="">
+                        <button class="add-to-cart-btn" >Login</button>
+
+                        <a href="">Forgot password</a>
+                    </form>
+
+                    <form action="" id="registerForm">
+                        <input type="text" placeholder="Username" id="">
+                        <input type="email" placeholder="Email" id="">
+                        <input type="password" placeholder="Password" id="">
+                        <button class="add-to-cart-btn" >Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <!-- ---------footer--------- -->
+    <div class="footer footer-margin">
+        <div class="footer-container">
+            <div class="footer-container-one">
+                <h3>Download Our App</h3>
+                <p>Download App for Andriod and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="./images/play-store.png" alt="">
+                    <img src="./images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-container-two">
+                <img src="./images/logo-white.png" alt="">
+                <p>Our Purpose Is To Provide Adequate and Latest Brands Of Wears, Accessories, and Other Products,</p>
+            </div>
+            <div class="footer-container-three">
+                <h3>Useful Links: </h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-container-four">
+                <h3>Contact Us: </h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Email</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> copyright <span id="year"></span> - Hakkym</p>
+    </div>
+
+
+    <script src="./js/index.js"></script>
+    </body>
+</html>
